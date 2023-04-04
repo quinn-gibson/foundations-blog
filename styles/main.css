@@ -62,3 +62,22 @@ p {
   padding-right: 25px;
   width: 100%;
 }
+
+.blog-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tech {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 25px;
+}
+
+.core {
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 25px;
+}

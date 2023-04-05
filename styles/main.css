@@ -10,10 +10,19 @@ h1 {
 
 h2 {
   font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 p {
   font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .topnav {
@@ -45,8 +54,6 @@ p {
   display: flex;
   width: 100%;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   padding-top: 30px;
 }
 
@@ -61,4 +68,22 @@ p {
   padding-left: 50px;
   padding-right: 25px;
   width: 100%;
+}
+
+#css-concepts {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#margin-border-padding {
+  padding: 10px;
+}
+
+#css-concepts-photo{
+  padding: 10px;
+}
+
+#identity-values {
+  margin: 25px;
 }

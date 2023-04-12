@@ -55,6 +55,8 @@ p {
   width: 100%;
   justify-content: center;
   padding-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #homepage-photo {
@@ -68,16 +70,20 @@ p {
   padding-left: 50px;
   padding-right: 25px;
   width: 100%;
+  max-width: 50%;
 }
 
 #css-concepts {
   display: flex;
   width: 100%;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #margin-border-padding {
   padding: 10px;
+  max-width: 50%;
 }
 
 #css-concepts-photo{
@@ -90,4 +96,51 @@ p {
 
 #learning-plan {
   margin: 25px;
+}
+
+#javascript-dom {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#java-blog {
+  max-width: 50%;
+}
+
+#java-dom-photo {
+  height: 500px;
+  width: 700px;
+}
+
+@media only screen and (max-width: 500px) {
+  #about-me {
+    flex-direction: column;
+  }
+
+  #title-content {
+    padding-left: 50px;
+    padding-right: 25px;
+    width: 100%;
+    max-width: fit-content;
+  }
+
+  #css-concepts {
+    flex-direction: column;
+  }
+
+  #margin-border-padding {
+    padding: 10px;
+    max-width: fit-content;
+  }
+
+  #javascript-dom {
+    flex-direction: column;
+  }
+
+  #java-blog {
+    max-width: fit-content;
+  }
 }

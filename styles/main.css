@@ -150,6 +150,14 @@ p {
   padding-left: 10px;
 }
 
+#growth-mindset-photo {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
 
 @media only screen and (max-width: 500px) {
   #about-me {

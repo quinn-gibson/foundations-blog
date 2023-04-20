@@ -158,6 +158,23 @@ p {
   padding-top: 10px;
 }
 
+table, caption, tr, td {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 17px;
+  padding: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
 
 @media only screen and (max-width: 500px) {
   #about-me {

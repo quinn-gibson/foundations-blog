@@ -175,6 +175,10 @@ caption {
   margin-top: 40px;
 }
 
+#foundations-reflection {
+  margin-bottom: 30px;
+}
+
 
 @media only screen and (max-width: 500px) {
   #about-me {

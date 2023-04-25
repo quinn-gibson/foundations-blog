@@ -102,8 +102,12 @@ p {
   margin: 25px;
 }
 
-#learning-plan {
-  margin: 25px;
+#foundations-learning-plan {
+  margin: 60px 25px 25px 25px;
+}
+
+#bootcamp-learning-plan {
+  margin: 25px 25px 60px 25px;
 }
 
 #javascript-dom {
